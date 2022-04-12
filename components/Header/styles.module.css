@@ -1,0 +1,11 @@
+.wrapper {
+    @apply bg-gray-100 p-4 shadow-md;
+}
+
+.navbar {
+    @apply bg-gray-50 p-4 shadow-md text-center;
+}
+
+.navbar a {
+    @apply px-2;
+}
