@@ -4,8 +4,8 @@ import moment from 'moment';
 const doc = new GoogleSpreadsheet(process.env.SHEET_DOC_ID);
 
 const generateCoupon = () => {
-    const code = parseInt(moment().format('MMYYDDHHhmmss')).toString(16).toUpperCase();
-    return code;
+    const code = parseInt(moment().format('MMYYDDHHmmssSS')).toString(16).toUpperCase();
+    return `${code.substring(0, 4)}-${code.substring(4, 4)}-${code.substring(8, 4)}`;
 };
 
 export default async (req, res) => {

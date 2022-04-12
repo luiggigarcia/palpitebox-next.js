@@ -46,19 +46,19 @@ const Survey = () => {
             <div className='mt-4'>
                 {!sucess &&
                     <form method='post' className='flex flex-col'>
-                        <label htmlFor="name">Your name</label>
+                        <label htmlFor="Name">Your name</label>
                         <input className='p-4 bg-gray-200 w-96' type="text" name="Name" id="Name" onChange={onChange} value={form.Name}
                             placeholder='your name' />
 
-                        <label htmlFor="email" className='mt-2'>E-mail</label>
+                        <label htmlFor="Email" className='mt-2'>E-mail</label>
                         <input className='p-4 my-2 bg-gray-200 w-96' type="email" name="Email" id="Email" onChange={onChange} value={form.Email}
                             placeholder='your best email' />
 
-                        <label htmlFor="whats" className='mt-2'>Whatsapp</label>
+                        <label htmlFor="Whatsapp" className='mt-2'>Whatsapp</label>
                         <input className='p-4 my-2 bg-gray-200 w-96' type="tel" name="Whatsapp" id="Whatsapp" onChange={onChange} value={form.Whatsapp}
                             placeholder='phone number' />
 
-                        <label htmlFor="feedback" className='mt-2'>Your feedback or suggestion</label>
+                        <label htmlFor="Feedback" className='mt-2'>Your feedback or suggestion</label>
                         <input className='p-4 my-2 bg-gray-200 w-96' type="text" name="Feedback" id="Feedback" onChange={onChange} value={form.Feedback}
                             placeholder='give us a feedback, not is mandatory' />
 
