@@ -15,8 +15,9 @@ const Survey = () => {
     const [sucess, setSucess] = useState(false);
     const [dataReturn, setReturn] = useState({});
 
-    const sendForm = async () => {
+    const sendForm = async (event) => {
         try {
+            event.preventDefault();
             const response = await fetch('/api/save', {
                 method: 'POST',
                 body: JSON.stringify(form)
