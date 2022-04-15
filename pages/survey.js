@@ -43,10 +43,10 @@ const Survey = () => {
         <div className='flex flex-col items-center mt-8'>
             <PageTitle title='Survey - PalpiteBox' />
             <h1 className='font-semibold text-lg'>Feedback and Suggestions</h1>
-            <div className='mt-4'>
+            <div className='mt-4 ml-2'>
                 {!sucess &&
                     <form method='post' className='flex flex-col'>
-                        <label htmlFor="Name">Your name</label>
+                        <label htmlFor="Name" className='mb-2'>Your name</label>
                         <input className='p-4 bg-gray-200 w-96' type="text" name="Name" id="Name" onChange={onChange} value={form.Name}
                             placeholder='your name' />
 
