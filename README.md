@@ -2,10 +2,13 @@
 
 Did you think in give or receive opinions from 
 your business? So the PalpiteBox help you to have
-a good relationship with the clients.
+a good client relationships.
 
 The project is an application developed with Next.js
 connected with the Google SpreadSheets API.
+
+<img src="https://github.com/luiggigarcia/palpitebox-next.js/blob/main/components/Layout/layout.png" />
+<img src="https://github.com/luiggigarcia/palpitebox-next.js/blob/main/components/Layout/layout02.png" />
 
 ## Beginning
 These instructions will get you a copy of the project up and running on your local machine for
